@@ -26,6 +26,8 @@ submit patches.
 Or checkout the source in the traditional way, change to the directory
 and type:
 
+  go mod init github.com/memset/tcp_fallback
+  go mod tidy
   go build
 
 Test the build with:
